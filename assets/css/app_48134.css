@@ -1,9 +1,6 @@
 #layer{
 background-image:url(../img/bg.gif);
 background-repeat:no-repeat;
-filter:alpha(Opacity=80);
--moz-opacity:0.5;
-opacity: 0.5;
 color:white;
 width:1024px;
 height:125%;
@@ -14,10 +11,8 @@ background-size:cover;
 background-color:grey;
 background-repeat:repeat-y;
 filter:alpha(Opacity=80);
--moz-opacity:0.5;
-opacity: 0.5;
 color:white;
-width:844px;
+width:899px;
 height:80%;
 background-size:cover;
 }
