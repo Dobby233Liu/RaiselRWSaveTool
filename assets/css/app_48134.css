@@ -10,7 +10,7 @@ background-size:cover;
 #layer_level_content{
 background-color:black;
 background-repeat:repeat-y;
-filter:alpha(Opacity=80);
+filter:alpha(Opacity=64);
 color:white;
 width:943px;
 height:80%;
