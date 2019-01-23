@@ -8,11 +8,11 @@ padding: 20px;
 background-size:cover;
 }
 #layer_level_content{
-background-color:grey;
+background-color:black;
 background-repeat:repeat-y;
 filter:alpha(Opacity=80);
 color:white;
-width:899px;
+width:943px;
 height:80%;
 background-size:cover;
 }
