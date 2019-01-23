@@ -10,6 +10,17 @@ height:125%;
 padding: 20px;
 background-size:cover;
 }
+#layer_level_content{
+background-color:grey;
+background-repeat:repeat-y;
+filter:alpha(Opacity=80);
+-moz-opacity:0.5;
+opacity: 0.5;
+color:white;
+width:844px;
+height:80%;
+background-size:cover;
+}
 body{
 background-color:black;
 background-repeat:repeat-y;
