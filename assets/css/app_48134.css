@@ -2,17 +2,17 @@
 background-image:url(../img/bg.gif);
 background-repeat:no-repeat;
 color:white;
-width:1024px;
+width:100%;
 height:125%;
 padding: 20px;
 background-size:cover;
 }
 #layer_level_content{
-background-color:black;
+background-color:transparent;
 background-repeat:repeat-y;
 filter:alpha(Opacity=64);
 color:white;
-width:943px;
+width:1000px;
 height:80%;
 background-size:cover;
 }
