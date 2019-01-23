@@ -1,0 +1,16 @@
+#layer{
+background-image:url(../img/bg.gif);
+background-repeat:no-repeat;
+filter:alpha(Opacity=80);
+-moz-opacity:0.5;
+opacity: 0.5;
+color:white;
+width:1024px;
+height:125%;
+padding: 20px;
+background-size:cover;
+}
+body{
+background-color:black;
+background-repeat:repeat-y;
+}
