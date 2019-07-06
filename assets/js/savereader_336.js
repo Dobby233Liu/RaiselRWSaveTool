@@ -5,7 +5,7 @@ DeltaruneSaveRead = function(){
 			ss.truename = lpt[0];
 			var i = 1
 			while (true) {
-				if (i < 7) {
+				if (i < 6) {
 					ss.othername[i] = lpt[i]
 					i += 1
 					continue
@@ -33,7 +33,7 @@ DeltaruneSaveRead = function(){
 			i += 1
 			var tmpi_chr = i;
 			while (true) {
-				if (i < tmpi_chr + 4 - 1) {
+				if (i < tmpi_chr + 4) {
 					ss.hp[i] = lpt[i]
 					i += 1
 					ss.maxhp[i] = lpt[i]
@@ -56,7 +56,7 @@ DeltaruneSaveRead = function(){
 					i += 1
 					q = 0
 					while (true) {
-						if (q < 4-1) {
+						if (q < 4) {
 							console.log(i)
 							console.log(q)
 							ss.itemat[i][q] = lpt[i]
@@ -82,7 +82,7 @@ DeltaruneSaveRead = function(){
 					}
 					var j = 0
 					while (true) {
-						if (j < 12-1) {
+						if (j < 12) {
 							ss.spell[i][j] = lpt[i]
 							i += 1
 							j = (j + 1)
@@ -103,7 +103,7 @@ DeltaruneSaveRead = function(){
 			i += 1
 			j = 0
 			while (true) {
-				if (j < 13-1) {
+				if (j < 13) {
 					ss.item[j] = lpt[i]
 					i += 1
 					ss.keyitem[j] = lpt[i]
@@ -145,7 +145,7 @@ DeltaruneSaveRead = function(){
 			i += 1
 			var tmpi2 = i;
 			while (true) {
-				if (i < tmpi2 + 8 - 1) {
+				if (i < tmpi2 + 8) {
 					ss.litem[i] = lpt[i]
 					i += 1
 					ss.phone[i] = lpt[i]
@@ -157,7 +157,7 @@ DeltaruneSaveRead = function(){
 			}
 			tmpi3 = i
 			while (true) {
-				if (i < tmpi3 + 9999 - 1) {
+				if (i < tmpi3 + 9999) {
 					ss.flag[i] = lpt[i]
 					i += 1
 
