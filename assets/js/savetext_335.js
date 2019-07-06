@@ -13,7 +13,6 @@ DeltaruneSaveSlot = function(){
 	this.othername[3] = "PLAYER";
 	this.othername[4] = "PLAYER";
 	this.othername[5] = "PLAYER";
-	this.othername[6] = "PLAYER";
 
 	this.char = new Array();
 	this.char[0] = 1;
@@ -30,8 +29,6 @@ DeltaruneSaveSlot = function(){
 	this.hp[0] = 90;
 	this.hp[1] = 120;
 	this.hp[2] = 70;
-	this.hp[3] = 70;
-	this.hp[4] = 70;
 
 	// at
 	this.at = new Array();
@@ -50,9 +47,7 @@ DeltaruneSaveSlot = function(){
 	this.maxhp[0] = 90;
 	this.maxhp[1] = 120;
 	this.maxhp[2] = 70;
-	this.maxhp[3] = 70;
-	this.maxhp[4] = 70;
-
+	
 	this.charweapon = new Array();
 
 	this.chararmor1 = new Array();
@@ -65,9 +60,7 @@ DeltaruneSaveSlot = function(){
 	this.itemat[0] = new Array()
 	this.itemat[1] = new Array()
 	this.itemat[2] = new Array()
-	this.itemat[3] = new Array()
-	this.itemat[4] = new Array()
-
+	
 	this.itemdf = new Array();
 
 	this.itemmag = new Array();
@@ -83,9 +76,9 @@ DeltaruneSaveSlot = function(){
 	this.itemspecial = new Array();
 
 	// size: 12
-	this.spell = new Array();
+	this.spell = new Array(12);
 
-	this.flag = new Array(999);
+	this.flag = new Array(9998);
 
 	this.plot = 0;
 
@@ -93,9 +86,9 @@ DeltaruneSaveSlot = function(){
 
 	this.time = 0;
 
-	this.litem = new Array();
+	this.litem = new Array(8);
 
-	this.phone = new Array();
+	this.phone = new Array(8);
 
 	this.tension = 0;
 	this.maxtension = 0;
